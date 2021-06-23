@@ -10457,5 +10457,26 @@ button.bg-dark:focus {
     color: inherit;
     border-color: #555555;
   }
+	
+  .countdown {
+    font-size: 72px;
+    flex-direction: column;
+	  text-align: center; 
+	  
+  }
+
+  .countdown div {
+    display: none;
+	  	  text-align: center; 
+
+  }
+
+  .countdown div:first-child {
+    display: block;
+    width: 80%;
+    padding: 10px;
+	  	  text-align: center; 
+
+  }
 }
 /*# sourceMappingURL=bootstrap.css.map */
